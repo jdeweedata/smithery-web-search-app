@@ -15,8 +15,8 @@ function App() {
 
     try {
       // Replace 'yourusername' and 'yourpassword' with your actual n8n credentials
-      const username = 'yourusername';
-      const password = 'yourpassword';
+      const username = 'admin@entrsphere.com';
+      const password = 'gW5pH8pWmfQKxyU';
       const credentials = btoa(`${username}:${password}`);
 
       const res = await fetch('https://n8n.entrsphere.com/webhook-test/api/search', {
